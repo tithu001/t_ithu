@@ -25,8 +25,33 @@ header {
     cursor: default;
 }
 
+
+
 .navigation a {
     font-size: 1cm;
-    color: darkslategray;
+    color: rgb(8, 207, 207);
     text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: 3s;
+}
+
+.navigation a:hover {
+    color: rgb(158, 155, 157);
+}
+
+.btn-talk {
+    color: ;
+    text-decoration: none;
+    padding: 8px 35px;
+    background-color: rgb(5, 14, 106);
+    border-radius: 10px;
+    border: 2px rgb(110, 14, 4);
+    font-weight: 500;
+    transition: 3s;
+}
+
+.btn-talk:hover {
+    color:black;
+    background: transparent;
 }
