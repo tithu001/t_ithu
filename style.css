@@ -29,6 +29,7 @@ header {
     color:rgb(170, 21, 18);
 }
 
+
 .navigation a {
     font-size: 1cm;
     color: rgb(3, 50, 50);
@@ -64,7 +65,7 @@ header {
     height: 100vh;
     background: url('001.jpg');
     background-size: cover;
-    background-position: center;
+    background-position: right;
     display: flex;
     align-items: center;
     padding: 30px 100px;
@@ -98,4 +99,31 @@ header {
     border-radius: 10px;
     border: 2px solid #7d2ae8;
     font-size: 500;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: black;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid rgb(223, 2, 2);
+    outline: rebeccapurple;
+    transition: 3s;
+}
+
+.social-icons a:hover {
+    transform: translateY(-30px);
+}
+
+.social-icons a i {
+    color: aliceblue;
 }
