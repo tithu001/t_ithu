@@ -26,12 +26,12 @@ header {
 }
 
 .logo span {
-    color:rgb(151, 2, 116);
+    color:rgb(170, 21, 18);
 }
 
 .navigation a {
     font-size: 1cm;
-    color: rgb(8, 207, 207);
+    color: rgb(3, 50, 50);
     text-decoration: none;
     margin-right: 40px;
     font-weight: 500;
@@ -39,11 +39,11 @@ header {
 }
 
 .navigation a:hover {
-    color: rgb(109, 43, 87);
+    color: rgb(0, 0, 0);
 }
 
 .btn-talk {
-    color: ;
+    color: red ;
     text-decoration: none;
     padding: 8px 35px;
     background-color: rgb(5, 14, 106);
@@ -87,9 +87,15 @@ header {
     font-size: 1cm;
 }
 
+.content p {
+    padding: 10px 0 40px 0;
+}
 .btn-group a {
     color: blanchedalmond;
     text-decoration: none;
     padding: 10px 40px;
     background: darkslategray;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-size: 500;
 }
